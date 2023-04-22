@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Encriptador.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+
+                <h1 class="Neon">Encriptador Alura</h1>
+
+            </div>
+            
+        </header>
+        <main>
+            <!----Inicia sección dos de botones encriptar y desencriptar--->
+
+            <section class="seccionuno">
+                <textarea id="text-area-mensaje" class="text-area-mensaje" cols="30" rows="10"
+                    placeholder="Ingrese el texto aqui"></textarea>
+
+                <div>
+                    <h6 class="informacion">🛈Solo letras minúsculas y sin acentos</h6>
+                </div>
+
+
+
+                <div class="botonesencriptado">
+
+                    <button id="botonencriptar" class="btn-encriptar">Encriptar</button>
+
+
+
+                    <button id="botondesencriptar" class="btn-desencriptar">Desencriptar</button>
+                </div>
+
+            </section>
+
+            <!----Inicia sección dos del boton para copiar--->
+            <section class="secciondos">
+                <textarea id="text-area-mensaje-resultante" class="text-area-mensaje-resultante" cols="20"
+                    rows="10"></textarea>
+
+
+                <div>
+                    <button onclick="copiar();" id="botoncopiar" class="btn-copiar">Copiar</button>
+                </div>
+
+
+
+            </section>
+            <section class="seccion3">
+                <ul>
+                    <li><i class="fa fa-facebook-f"></i></li>
+
+
+                    <li><i class="fa fa-linkedin"></i></li>
+                    <li><i class="fa fa-github"></i></li>
+                </ul>
+            </section>
+            <section class="seccion-ciruclos">
+                <li class="circulos"></li>
+                <li class="circulos"></li>
+                <li class="circulos"></li>
+
+            </section>
+            <section>
+                <li class="barra"></li>
+                <li class="barra"></li>
+                <li class="barra"></li>
+            </section>
+
+            <section class="letra">
+                <h1>a</h1>
+            </section>
+
+        </main>
+
+        <footer>
+            <h1>©Copyright Emanuel Alarcón Hernández</h1>
+        </footer>
+    </div>
+    <script src="Encriptador.js"></script>
+</body>
+
+</html>
