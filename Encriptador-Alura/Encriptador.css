@@ -7,7 +7,7 @@
 }
 
 .contenedor{
-  display: flex;
+ 
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -20,6 +20,7 @@ body {
   
   background-image: url(brown-brick-wall-bricks-architecture-orange-building-wallpaper-1920x1200_6.jpg); 
   background-size:cover;
+  background-repeat: repeat;
 }
 
 
@@ -32,7 +33,7 @@ body {
   position: absolute;
   border: solid rgb(255, 255, 255);
   animation: giro 5s infinite;
-  box-shadow: inset 0 0 10px red, 0 0 15px red,0 0 25px red,0 0 45px red;
+  box-shadow: inset 0 0 10px red, 0 0 15px red,0 0 25px red,0 0 45px red,0 0 15px red,0 0 25px red,0 0 45px red,0 0 15px red,0 0 25px red,0 0 45px red;
   transition: box-shadow 1s ease-in-out;
   text-shadow: #9dee6f;
   font-size:8vw;
@@ -41,24 +42,15 @@ body {
 
 .Neon {
   color: white;
-  text-shadow: 0 0 5px rgb(26, 141, 207), 0 0 15px rgb(26, 141, 207), 0 0 50px rgb(26, 141, 207);
+  text-shadow: 0 0 5px rgb(26, 141, 207), 0 0 15px rgb(26, 141, 207), 0 0 50px rgb(26, 141, 207)0 0 15px rgb(26, 141, 207),0 0 25px rgb(26, 141, 207),0 0 35px rgb(26, 141, 207);
   font-style: italic;
   display: flex;
 }
 
 
 
-.seccionuno{
-  display: flex;
-}
 
-.secciondos{
-  display: flex;
 
-}
-.seccion3{
-  display: flex;
-}
 
 
 
@@ -72,7 +64,7 @@ body {
   background: linear-gradient(rgb(17, 17, 24), rgb(7, 10, 14), rgb(57, 1, 83));
   border-radius: 15px;
   border: #e9e1e1 solid;
-  box-shadow: inset 0 0 15px rgb(176, 176, 231), 0 0 15px rgb(176, 176, 231), 0 0 15px rgb(176, 176, 231), 0 0 15px rgb(176, 176, 231);
+  box-shadow: inset 0 0 15px rgb(176, 176, 231), 0 0 15px rgb(176, 176, 231), 0 0 15px rgb(176, 176, 231), 0 0 15px rgb(176, 176, 231), 0 0 15px rgb(176, 176, 231), 0 0 25px rgb(176, 176, 231), 0 0 25px rgb(176, 176, 231), 0 0 45px rgb(176, 176, 231);
   color: #fffdfd;
   text-shadow: 0 0 15px rgb(236, 224, 50), 0 0 15px rgb(236, 224, 50), 0 0 15px rgb(236, 224, 50);
   position: absolute;
@@ -81,7 +73,7 @@ body {
   width: 37%;
   font-size: 2vw;
   top: 20%;
-  display: flex; 
+ 
 }
 
 ::placeholder {
@@ -97,12 +89,12 @@ body {
 }
 
 .text-area-mensaje-resultante {
-  display: flex;
+  
   border: 1px solid #000000;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background: #9dee6f;
-  box-shadow: inset 0 0 15px#0aed56, 0 0 15px#1ff329, 0 0 15px#1ff329, 0 0 15px#1ff329, 0 0 15px#1ff329, 0 0 15px#1ff329;
+  box-shadow: inset 0 0 15px#0aed56, 0 0 15px#1ff329,0 0 15px#1ff329,0 0 25px#1ff329, 0 0 25px#1ff329, 0 0 35px#1ff329, 0 0 15px#1ff329, 0 0 45px#1ff329;
   left: 54%;
   top: 20%;
   position: absolute;
@@ -126,7 +118,7 @@ body {
   background: #f1f8ff;
   border: 2px solid black;
   border-radius: 24px;
-  box-shadow: inset 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED;
+  box-shadow: inset 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 25px#0A82ED, 0 0 35px#0A82ED, 0 0 15px#0A82ED, 0 0 45px#0A82ED;
   color: #2c4668;
   cursor: pointer;
   height: 7%;
@@ -141,7 +133,7 @@ body {
 }
 
 .btn-encriptar {
-  box-shadow: inset 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED;
+  box-shadow: inset 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 25px#0A82ED, 0 0 35px#0A82ED, 0 0 15px#0A82ED, 0 0 45px#0A82ED;
   background: #f1f8ff;
   border: 2px solid #000000;
   border-radius: 24px;
@@ -159,7 +151,7 @@ body {
 }
 
 .btn-copiar {
-  box-shadow: inset 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED;
+  box-shadow:  inset 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, inset 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED, 0 0 15px#0A82ED;
   background: #f1f8ff;
   border: 2px solid #000000;
   border-radius: 24px;
@@ -188,7 +180,7 @@ body {
     display: flex;
 }
 footer{ 
-  display: flex;
+ 
     text-shadow: 0 0 14px#56dd08, 0 0 30px#56dd08, 0 0 50px#56dd08;
     width: 80%;
     height: 16%;
@@ -263,26 +255,19 @@ ul li:nth-child(2){
 ul li:nth-child(3){
   left: 24vw;
 }
-
-ul li:nth-child(1):hover:before {
+/*Bordes*/
+ul li:nth-child(1):hover:before {/*facebook*/
   background-color: #0A82ED;
 }
 
-ul li:nth-child(2):hover:before {
-  background-color: #04a2ffb3;
+ul li:nth-child(2):hover:before {/*LinkedIn*/
+  background-color: #e78e3b;
 }
 
-ul li:nth-child(3):hover:before {
-  background-color: #e23670;
+ul li:nth-child(3):hover:before {/*Github*/
+  background-color: #bde4d7;
 }
 
-ul li:nth-child(4):hover:before {
-  background-color: #2a6cbb;
-}
-
-ul li:nth-child(5):hover:before {
-  background-color: #ff1a1a;
-}
 
 ul li:hover:before {
   filter: blur(4px);
@@ -298,60 +283,40 @@ ul li:nth-child(1):hover:before {
 
 ul li:nth-child(2):hover:before {
   filter: blur(4px);
-  box-shadow: 0 0 15 #04a2ffb3;
+  box-shadow: 0 0 15 #e78e3b;
   transform: scale(1.2);
 }
 
 ul li:nth-child(3):hover:before {
   filter: blur(4px);
-  box-shadow: 0 0 15 #e23670;
+  box-shadow: 0 0 15 #ffffff;
   transform: scale(1.2);
 }
 
-ul li:nth-child(4):hover:before {
-  filter: blur(4px);
-  box-shadow: 0 0 15 #2a6cbb;
-  transform: scale(1.2);
+
+/*Letras*/
+ul li:hover:nth-child(1) {/* Facebook fa   */
+  color: #abe2f8;
+  box-shadow: 0 0 15px hsl(200, 7%, 92%);
+  text-shadow: 0 0 15px #abe2f8;
 }
 
-ul li:nth-child(5):hover:before {
-  filter: blur(4px);
-  box-shadow: 0 0 15 #ff1a1a;
-  transform: scale(1.2);
+ul li:hover:nth-child(2) {/*Linkedin fa*/
+  color: #f3efbb;
+  box-shadow: 0 0 15px #f3efbb;
+  text-shadow: 0 0 15px #f3efbb;
 }
 
-ul li:hover:nth-child(1) {
-  color: #0A82ED;
-  box-shadow: 0 0 15px #0A82ED;
-  text-shadow: 0 0 15px #0A82ED;
+ul li:hover:nth-child(3) {/*  Github fa*/
+  color: #7af7cd;
+  box-shadow: 0 0 15px #7af7cd;
+  text-shadow: 0 0 15px #7af7cd;
 }
 
-ul li:hover:nth-child(2) {
-  color: #04a2ffb3;
-  box-shadow: 0 0 15px #04a2ffb3;
-  text-shadow: 0 0 15px #04a2ffb3;
-}
 
-ul li:hover:nth-child(3) {
-  color: #e23670;
-  box-shadow: 0 0 15px #e23670;
-  text-shadow: 0 0 15px #e23670;
-}
-
-ul li:hover:nth-child(4) {
-  color: #2a6cbb;
-  box-shadow: 0 0 15px #2a6cbb;
-  text-shadow: 0 0 15px #2a6cbb;
-}
-
-ul li:hover:nth-child(5) {
-  color: #ff1a1a;
-  box-shadow: 0 0 15px #ff1a1a;
-  text-shadow: 0 0 15px #ff1a1a;
-}
 
 .circulos {
-  height: 7vw;
+    height: 7vw;
     width: 7vw;
     color: white;
     background-color: rgb(12, 10, 10);
@@ -464,17 +429,15 @@ ul li:hover:nth-child(5) {
   text-shadow: 0 0 15px rgb(14, 98, 224),0 0 15px rgb(14, 98, 224),0 0 15px rgb(14, 98, 224),0 0 15px rgb(14, 98, 224);
   top: -3%;
   left: 3%;
-  display :flex;
+ 
   
 }
 
 
 
-/*RECOMENDABLE QUITAR ESTA MEDIA QUERY*/
-
-
+/*El div logo cambia a color azul oscuro con esta media query aqui*/
 @media screen and (max-width: 1200px) {
-  /* Agrega tus estilos para pantallas con un ancho máximo de 1200px aquí */
+  /* Es para pantallas con un ancho máximo de 1200px  */
   
   * {
  
@@ -485,7 +448,7 @@ ul li:hover:nth-child(5) {
   }
   
   .contenedor{
-    display: flex;
+  
     flex-flow: row wrap;
     justify-content: center;
   }
@@ -504,7 +467,7 @@ ul li:hover:nth-child(5) {
     width: 80%;
     height: 12%;
     
-    display: flex;
+   
     position: absolute;
     border: solid rgb(255, 255, 255);
     animation: giro 5s infinite;
@@ -568,8 +531,6 @@ ul li:hover:nth-child(5) {
   
   .text-area:focus {
     outline: none;
-  
-  
   }
   
   .text-area-mensaje-resultante {
@@ -579,7 +540,7 @@ ul li:hover:nth-child(5) {
     border-top-right-radius: 6%;
     background: #9dee6f;
     box-shadow: inset 0 0 15px#0aed56, 0 0 15px#1ff329, 0 0 15px#1ff329, 0 0 15px#1ff329, 0 0 15px#1ff329, 0 0 15px#1ff329;
-    left: 66%;
+    left: 63%;
     top: 17%;
     position: absolute;
     color: white;
@@ -620,13 +581,16 @@ ul li:hover:nth-child(5) {
     border-radius: 24px;
     color: #2c4668;
     cursor: pointer;
+
     height: 9%;
     width: 24%;
+
     left: 10%;
     bottom: 25%;
+
     position: absolute;
     font-size: 5vw;
-    display: flex;
+    
   }
   
   .btn-copiar {
@@ -660,7 +624,7 @@ ul li:hover:nth-child(5) {
     height: 9%
   }
   footer{ 
-    display: flex;
+   
     text-shadow: 0 0 14px#56dd08, 0 0 30px#56dd08, 0 0 50px#56dd08;
     width: 90%;
     height: 20%;
@@ -738,92 +702,7 @@ ul li:hover:nth-child(5) {
     bottom: 0px;
     
   }
-  
-  ul li:nth-child(1):hover:before {
-    background-color: #0A82ED;
-  }
-  
-  ul li:nth-child(2):hover:before {
-    background-color: #04a2ffb3;
-  }
-  
-  ul li:nth-child(3):hover:before {
-    background-color: #e23670;
-  }
-  
-  ul li:nth-child(4):hover:before {
-    background-color: #2a6cbb;
-  }
-  
-  ul li:nth-child(5):hover:before {
-    background-color: #ff1a1a;
-  }
-  
-  ul li:hover:before {
-    filter: blur(4px);
-    box-shadow: 0 0 15 #0A82ED;
-    transform: scale(1.2);
-  }
-  
-  ul li:nth-child(1):hover:before {
-    filter: blur(4px);
-    box-shadow: 0 0 15 #0A82ED;
-    transform: scale(1.2);
-  }
-  
-  ul li:nth-child(2):hover:before {
-    filter: blur(4px);
-    box-shadow: 0 0 15 #04a2ffb3;
-    transform: scale(1.2);
-  }
-  
-  ul li:nth-child(3):hover:before {
-    filter: blur(4px);
-    box-shadow: 0 0 15 #e23670;
-    transform: scale(1.2);
-  }
-  
-  ul li:nth-child(4):hover:before {
-    filter: blur(4px);
-    box-shadow: 0 0 15 #2a6cbb;
-    transform: scale(1.2);
-  }
-  
-  ul li:nth-child(5):hover:before {
-    filter: blur(4px);
-    box-shadow: 0 0 15 #ff1a1a;
-    transform: scale(1.2);
-  }
-  
-  ul li:hover:nth-child(1) {
-    color: #0A82ED;
-    box-shadow: 0 0 15px #0A82ED;
-    text-shadow: 0 0 15px #0A82ED;
-  }
-  
-  ul li:hover:nth-child(2) {
-    color: #04a2ffb3;
-    box-shadow: 0 0 15px #04a2ffb3;
-    text-shadow: 0 0 15px #04a2ffb3;
-  }
-  
-  ul li:hover:nth-child(3) {
-    color: #e23670;
-    box-shadow: 0 0 15px #e23670;
-    text-shadow: 0 0 15px #e23670;
-  }
-  
-  ul li:hover:nth-child(4) {
-    color: #2a6cbb;
-    box-shadow: 0 0 15px #2a6cbb;
-    text-shadow: 0 0 15px #2a6cbb;
-  }
-  
-  ul li:hover:nth-child(5) {
-    color: #ff1a1a;
-    box-shadow: 0 0 15px #ff1a1a;
-    text-shadow: 0 0 15px #ff1a1a;
-  }
+ 
   
   .circulos {
     height: 7vw;
@@ -938,9 +817,9 @@ ul li:hover:nth-child(5) {
     left: 3vw;
   }
 }
-/*Esta*/
+
 @media screen and (max-width: 550px) {
-  /* Agrega tus estilos para pantallas con un ancho máximo de 480px aquí */
+  /* Para pantallas con un ancho máximo de 550px */
   body {
   
     background-image: url(ladrilloshd.jpg); 
@@ -1078,6 +957,7 @@ ul li:hover:nth-child(5) {
     left: 0%;
     width: 100%;
     height: 20px;
+    visibility: hidden;
   }
   .circulos {
     height: 15vw;
