@@ -312,7 +312,10 @@ ul li:hover:nth-child(3) {/*  Github fa*/
   box-shadow: 0 0 15px #7af7cd;
   text-shadow: 0 0 15px #7af7cd;
 }
-
+ul li a{
+  color: rgba(255, 255, 255, 0.671);
+  text-decoration: none;
+}
 
 
 .circulos {
