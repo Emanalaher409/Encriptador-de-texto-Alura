@@ -1,5 +1,5 @@
 ENCRIPTADOR DE TEXTO ALURA
-![EncriptadorAlura](https://github.com/Emanalaher409/Encriptador-de-texto-Alura/assets/108510650/00b14066-6b97-4e12-abe3-e2cbda636827)
+![image](https://github.com/Emanalaher409/Encriptador-de-texto-Alura/assets/108510650/468c6db4-c34d-421c-bf74-d030ba720632)
 Este es el "Encriptador de texto" que realize como challenge durante el transcurso del programa ONE – Oracle Next Education
 Fue elaborado con html,css y javascript
 
